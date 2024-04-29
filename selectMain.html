@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Saffron | Restaurant & Bar</title>
+    <link rel="icon" type="image/png" href="./assets/images/LogoF.png">
+    <link rel="stylesheet" href="menu.css">
+</head>
+
+<body>
+
+    <section class="section service bg-black-10 text-center" aria-label="service" id="basicMenu">
+        <div class="container">
+
+            <h1 class="section-subtitle label-2">Saffron Restaurant & Bar</h1>
+
+            <h2 class="headline-1 section-title">We offer distinct menus for lunch and dinner<br><br>Please select your
+                preference based on your current timing</h2>
+
+            <img src="./assets/images/shape-1.png" width="246" height="412" loading="lazy" alt="shape"
+                class="shape shape-1 move-anim">
+            <img src="./assets/images/shape-2.png" width="343" height="345" loading="lazy" alt="shape"
+                class="shape shape-2 move-anim">
+
+        </div>
+        <div class="buttons">
+            <button onclick="redirectTo('lunchMain.html')">Lunch</button>
+            <button onclick="redirectTo('dinnerMain.html')">Dinner</button>
+        </div>
+    </section>
+</body>
+<script>
+    function redirectTo(page) {
+        window.location.href = page;
+    }
+</script>
+
+</html>
